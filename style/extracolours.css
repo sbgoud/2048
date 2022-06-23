@@ -1,0 +1,47 @@
+
+
+body{
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+
+
+.row1 .cell1{
+    background: #D0F0C0;
+}
+.row2 .cell1{
+    background: #7CFC00;
+}
+.row3 .cell1{
+    background: #228c22;
+}
+.row4 .cell1{
+    background: #005c29;
+}
+
+.row4 .cell2{
+    background: #004225;
+}
+.row4 .cell3{
+    background: #123524;
+}
+
+
+.colourchange-button {
+    display: inline-block;
+    background: #8f7a66;
+    border-radius: 3px;
+    padding: 0 20px ;
+    text-decoration: none;
+    color: #f9f6f2;
+    height: 40px;
+    line-height: 42px;
+    display: block;
+    text-align: center;
+    float: left;
+}
+
