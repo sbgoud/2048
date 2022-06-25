@@ -263,7 +263,6 @@ GameManager.prototype.tileMatchesAvailable = function () {
       }
     }
   }
-
   return false;
 };
 

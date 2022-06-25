@@ -10,7 +10,7 @@ body{
 
 
 
-.row1 .cell1{
+ /*.row1 .cell1{
     background: #D0F0C0;
 }
 .row2 .cell1{
@@ -28,7 +28,7 @@ body{
 }
 .row4 .cell3{
     background: #123524;
-}
+ } */
 
 
 .colourchange-button {
@@ -43,5 +43,6 @@ body{
     display: block;
     text-align: center;
     float: left;
+    margin: 5px;
 }
 

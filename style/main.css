@@ -8,7 +8,7 @@ html, body {
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 20px 0; }
 
 .heading:after {
   content: "";
@@ -138,7 +138,6 @@ hr {
   100% {
     opacity: 1; } }
 .game-container {
-  margin-top: 40px;
   position: relative;
   padding: 15px;
   cursor: default;

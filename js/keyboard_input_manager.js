@@ -1,6 +1,6 @@
 function KeyboardInputManager() {
   this.events = {};
-
+  
   if (window.navigator.msPointerEnabled) {
     //Internet Explorer 10 style
     this.eventTouchstart    = "MSPointerDown";
@@ -13,6 +13,7 @@ function KeyboardInputManager() {
   }
 
   this.listen();
+  
 }
 
 KeyboardInputManager.prototype.on = function (event, callback) {
@@ -60,6 +61,7 @@ KeyboardInputManager.prototype.listen = function () {
         event.preventDefault();
         self.emit("move", mapped);
       }
+      
     }
 
     // R key restarts the game
